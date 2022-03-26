@@ -1,0 +1,69 @@
+body{
+    background: #ffaa16;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container, .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 600px;
+    margin-top: 0 auto 0;
+}
+
+
+.login{
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+.senha{
+    margin-top: 10px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.botao{
+    margin-top: 10px;
+    background-color: #3b3c40;
+    color: white;
+    border: 1px solid  #3b3c40;
+    border-radius: 5px;
+    font-style: italic;
+    padding: 10px;
+    padding-right: 14px;
+    padding-left: 12px;
+    font-size: 17px;
+}
+
+.botao:hover{
+    cursor: pointer;
+    color: #ffaa16;
+    transition: 0.3s;
+}
+
+.esqueceu-senha{
+    text-align: right;
+    text-decoration: none;
+    color: #3b3c40;
+    font-size: 13px;
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    position: relative;
+    top: 150px;
+    border-radius: 100px;
+}
